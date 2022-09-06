@@ -7,6 +7,7 @@ authors = ["un1ck-andy <105160048+un1ck-andy@users.noreply.github.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Flask = "^2.2.2"
+pylint = "^2.15.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.8.0"
