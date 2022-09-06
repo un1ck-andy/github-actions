@@ -3,10 +3,10 @@ Simple IT portfolio
 '''
 from flask import Flask, render_template
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
-@app.route("/")
+@application.route("/")
 def root():
     '''
     main route
@@ -15,5 +15,5 @@ def root():
 
 
 if __name__ == "__main__":
-    app.debug = True
-    app.run(host="0.0.0.0", port=80)
+    application.debug = True
+    application.run(host="0.0.0.0", port=80)
